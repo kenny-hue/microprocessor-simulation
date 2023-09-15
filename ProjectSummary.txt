@@ -1,0 +1,22 @@
+Update on Microprocessor Simulation Project
+
+Hello Nancy,
+
+I trust this email finds you well amidst your busy schedule. I wanted to provide you with a concise update on the progress of the microprocessor simulation project that I have been working on. I'll outline the program's functionality and share insights on a particularly challenging aspect I successfully tackled.
+
+The program revolves around executing various operations, each taking specific inputs and generating outputs based on the operation's logic. These operations encompass addition, multiplication, logical operations like OR and NAND, comparisons, finding the minimum value, and bit shifting.
+
+For each line of the input file, we utilize the `split()` method to segment the line into components: `line[0]`, `line[1]`, and `line[2]`, representing the operation, the first input, second input, and third input, respectively. The function is designed to accept the operation and its associated arguments.
+
+Upon identifying the operation type as denoted by `line[0]`, the function performs the corresponding operation using the provided arguments. The output of the operation is then displayed.
+
+In scenarios where the operation is unrecognized or the argument count exceeds three, we implemented an error message system to provide clear feedback on the issue. This ensures the program adeptly handles unforeseen situations.
+
+During development, I encountered challenges in handling line splitting and addressing shift, NAND, and OR operations. In these instances, the program processes text-based inputs, analyzing them line by line (e.g., "add 1 7"). For bit shifting, binary representations are manipulated, while logical NAND verifies an integer's deviation from specific values. Additionally, logical OR checks if either value holds true. To address these complexities, I converted arguments into binary representations and executed operations accordingly. The input file is parsed to process inputs individually per line.
+
+I structured the code into separate functions for each operation and validated its accuracy through testing with sample files.
+
+I deeply appreciate your guidance and support throughout this project. If you have any queries or suggestions, please don't hesitate to share.
+
+Best regards,
+Bukunmi Kehinde
